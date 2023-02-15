@@ -1,0 +1,2 @@
+﻿namespace BuildingBlocks.Application.Interfaces.CQRS.Notifications.Handler;
+public interface INotificationHandler<in TypeNotification> : MediatR.INotificationHandler<TypeNotification> where TypeNotification : MediatR.INotification { }

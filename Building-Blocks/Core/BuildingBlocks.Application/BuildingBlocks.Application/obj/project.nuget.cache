@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "MdGyZysSRbzf65HF+r4GJmwxeroC6BYAsHdQgI0AHC5Vylbt0/qDv+/CYnAfpPels9IaTj5GbJhgu+qnOo9e7Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Bertan\\source\\repos\\SocialApp\\SocialAppBackend\\Building-Blocks\\Core\\BuildingBlocks.Application\\BuildingBlocks.Application\\BuildingBlocks.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Bertan\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
+    "C:\\Users\\Bertan\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\Bertan\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.0.0\\mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\Bertan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

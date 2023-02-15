@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "If/RgRFlQjyQpTLHjSCKGNHWur9wWGWKoSfzhGYv5PuMVU2aTCbeks3bAlA28AXEcv960Jy3oa0ZAYKYXQYP3w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Bertan\\source\\repos\\SocialApp\\SocialAppBackend\\src\\Core\\SocialApp.Application\\SocialApp.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Bertan\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
+    "C:\\Users\\Bertan\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\Bertan\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.0.0\\mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\Bertan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
