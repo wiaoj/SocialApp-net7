@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\Building-Blocks\Core\BuildingBlocks.Application\BuildingBlocks.Application\BuildingBlocks.Application.csproj" />
+    <ProjectReference Include="..\SocialApp.Domain\SocialApp.Domain.csproj" />
   </ItemGroup>
 
 </Project>

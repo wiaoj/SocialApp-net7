@@ -1,0 +1,12 @@
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\BuildingBlocks\Core\BuildingBlocks.Core.Abstractions\bin\Debug\net7.0\BuildingBlocks.Core.Abstractions.deps.json
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\BuildingBlocks\Core\BuildingBlocks.Core.Abstractions\bin\Debug\net7.0\BuildingBlocks.Core.Abstractions.dll
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\BuildingBlocks\Core\BuildingBlocks.Core.Abstractions\bin\Debug\net7.0\BuildingBlocks.Core.Abstractions.pdb
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\BuildingBlocks\Core\BuildingBlocks.Core.Abstractions\obj\Debug\net7.0\BuildingBlocks.Core.Abstractions.csproj.AssemblyReference.cache
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\BuildingBlocks\Core\BuildingBlocks.Core.Abstractions\obj\Debug\net7.0\BuildingBlocks.Core.Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\BuildingBlocks\Core\BuildingBlocks.Core.Abstractions\obj\Debug\net7.0\BuildingBlocks.Core.Abstractions.AssemblyInfoInputs.cache
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\BuildingBlocks\Core\BuildingBlocks.Core.Abstractions\obj\Debug\net7.0\BuildingBlocks.Core.Abstractions.AssemblyInfo.cs
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\BuildingBlocks\Core\BuildingBlocks.Core.Abstractions\obj\Debug\net7.0\BuildingBlocks.Core.Abstractions.csproj.CoreCompileInputs.cache
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\BuildingBlocks\Core\BuildingBlocks.Core.Abstractions\obj\Debug\net7.0\BuildingBlocks.Core.Abstractions.dll
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\BuildingBlocks\Core\BuildingBlocks.Core.Abstractions\obj\Debug\net7.0\refint\BuildingBlocks.Core.Abstractions.dll
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\BuildingBlocks\Core\BuildingBlocks.Core.Abstractions\obj\Debug\net7.0\BuildingBlocks.Core.Abstractions.pdb
+C:\Users\Bertan\source\repos\SeriesAndMovies\SeriesAndMoviesMicroservices\src\BuildingBlocks\Core\BuildingBlocks.Core.Abstractions\obj\Debug\net7.0\ref\BuildingBlocks.Core.Abstractions.dll

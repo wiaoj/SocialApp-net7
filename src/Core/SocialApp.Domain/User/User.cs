@@ -1,55 +1,57 @@
 ﻿using BuildingBlocks.Domain.Models;
-using SocialApp.Domain.Exceptions.UserExceptions;
 using SocialApp.Domain.User.ValueObjects;
+using System.Security.Cryptography;
+using System.Text;
 
 namespace SocialApp.Domain.User;
 public sealed class User : AggregateRoot<UserId> {
-    public Name Name { get; private set; }
+    public FirstName FirstName { get; private set; }
+    public LastName LastName { get; private set; }
     public Email Email { get; private set; }
-    public Password Password { get; private set; }
+    public PasswordSalt PasswordSalt { get; private set; }
+    public PasswordHash PasswordHash { get; private set; }
 
-    private User(UserId id, Name name, Email email, Password password) : base(id) {
-        Name = name;
+    private User(UserId id,
+                 FirstName firstName,
+                 LastName lastName,
+                 Email email,
+                 PasswordSalt passwordSalt,
+                 PasswordHash passwordHash) : base(id) {
+        FirstName = firstName;
+        LastName = lastName;
         Email = email;
-        Password = password;
+        PasswordSalt = passwordSalt;
+        PasswordHash = passwordHash;
     }
 
-    public static User Create(Name name, Email email, Password password) {
-        return new(UserId.Create(), name, email, password);
+    public static User Create(FirstName firstName, LastName lastName, Email email, PasswordSalt passwordSalt, PasswordHash passwordHash) {
+        return new(UserId.Create(), firstName, lastName, email, passwordSalt, passwordHash);
     }
 
     public static User Create(String firstName, String lastName, String email, String password) {
-        return Create(Name.Create(firstName, lastName), Email.Create(email), Password.Create(password));
+        (PasswordSalt passwordSalt, PasswordHash passwordHash) = CreatePassword(password);
+        return Create(FirstName.Create(firstName),
+                      LastName.Create(lastName),
+                      Email.Create(email),
+                      passwordSalt,
+                      passwordHash);
     }
 
-    public User UpdateName(String firstName, String lastName) {
+    public static (PasswordSalt, PasswordHash) CreatePassword(String password) {
+        using HMACSHA512 hmac = new();
 
-        if(Name.FirstName.Equals(firstName))
-            throw new UserFirstNameSameDomainException();
-
-        if(Name.LastName.Equals(lastName))
-            throw new UserLastNameSameDomainException();
-
-        Name = Name.Create(firstName, lastName);
-
-        return this;
+        Byte[] passwordSalt = hmac.Key;
+        Byte[] passwordHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(password));
+        return (PasswordSalt.Create(passwordSalt), PasswordHash.Create(passwordHash));
     }
 
-    public User UpdateEmail(String email) {
-        if(Email.Value.Equals(email))
-            throw new UserEmailSameDomainException();
+    public void VerifyPassword(String loginPassword) {
+        using HMACSHA512 hmac = new(PasswordSalt.Value);
 
-        Email = Email.Create(email);
-        return this;
-    }
+        Byte[] computedHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(loginPassword));
 
-    public User UpdatePassword(String value) {
-        Password password = Password.Create(value);
-
-        if(Password.Equals(password))
-            throw new UserPasswordSameDomainException();
-
-        Password = password;
-        return this;
+        if(computedHash.SequenceEqual(PasswordHash.Value) is false) {
+            throw new Exception("Şifreniz yanlış");
+        }
     }
 }

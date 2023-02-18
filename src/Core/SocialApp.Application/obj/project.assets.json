@@ -73,6 +73,29 @@
         "runtime": {
           "bin/placeholder/BuildingBlocks.Application.dll": {}
         }
+      },
+      "BuildingBlocks.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/BuildingBlocks.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BuildingBlocks.Domain.dll": {}
+        }
+      },
+      "SocialApp.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "BuildingBlocks.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SocialApp.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SocialApp.Domain.dll": {}
+        }
       }
     }
   },
@@ -153,12 +176,23 @@
       "type": "project",
       "path": "../../../Building-Blocks/Core/BuildingBlocks.Application/BuildingBlocks.Application/BuildingBlocks.Application.csproj",
       "msbuildProject": "../../../Building-Blocks/Core/BuildingBlocks.Application/BuildingBlocks.Application/BuildingBlocks.Application.csproj"
+    },
+    "BuildingBlocks.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../../Building-Blocks/Core/BuildingBlocks.Domain/BuildingBlocks.Domain.csproj",
+      "msbuildProject": "../../../Building-Blocks/Core/BuildingBlocks.Domain/BuildingBlocks.Domain.csproj"
+    },
+    "SocialApp.Domain/1.0.0": {
+      "type": "project",
+      "path": "../SocialApp.Domain/SocialApp.Domain.csproj",
+      "msbuildProject": "../SocialApp.Domain/SocialApp.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "BuildingBlocks.Application >= 1.0.0",
-      "Microsoft.Extensions.DependencyInjection.Abstractions >= 7.0.0"
+      "Microsoft.Extensions.DependencyInjection.Abstractions >= 7.0.0",
+      "SocialApp.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -196,6 +230,9 @@
           "projectReferences": {
             "C:\\Users\\Bertan\\source\\repos\\SocialApp\\SocialAppBackend\\Building-Blocks\\Core\\BuildingBlocks.Application\\BuildingBlocks.Application\\BuildingBlocks.Application.csproj": {
               "projectPath": "C:\\Users\\Bertan\\source\\repos\\SocialApp\\SocialAppBackend\\Building-Blocks\\Core\\BuildingBlocks.Application\\BuildingBlocks.Application\\BuildingBlocks.Application.csproj"
+            },
+            "C:\\Users\\Bertan\\source\\repos\\SocialApp\\SocialAppBackend\\src\\Core\\SocialApp.Domain\\SocialApp.Domain.csproj": {
+              "projectPath": "C:\\Users\\Bertan\\source\\repos\\SocialApp\\SocialAppBackend\\src\\Core\\SocialApp.Domain\\SocialApp.Domain.csproj"
             }
           }
         }

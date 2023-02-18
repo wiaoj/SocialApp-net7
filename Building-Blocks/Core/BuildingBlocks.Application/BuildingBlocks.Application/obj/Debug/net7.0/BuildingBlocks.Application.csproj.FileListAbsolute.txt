@@ -1,0 +1,12 @@
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Core\BuildingBlocks.Application\BuildingBlocks.Application\bin\Debug\net7.0\BuildingBlocks.Application.deps.json
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Core\BuildingBlocks.Application\BuildingBlocks.Application\bin\Debug\net7.0\BuildingBlocks.Application.dll
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Core\BuildingBlocks.Application\BuildingBlocks.Application\bin\Debug\net7.0\BuildingBlocks.Application.pdb
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Core\BuildingBlocks.Application\BuildingBlocks.Application\obj\Debug\net7.0\BuildingBlocks.Application.csproj.AssemblyReference.cache
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Core\BuildingBlocks.Application\BuildingBlocks.Application\obj\Debug\net7.0\BuildingBlocks.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Core\BuildingBlocks.Application\BuildingBlocks.Application\obj\Debug\net7.0\BuildingBlocks.Application.AssemblyInfoInputs.cache
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Core\BuildingBlocks.Application\BuildingBlocks.Application\obj\Debug\net7.0\BuildingBlocks.Application.AssemblyInfo.cs
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Core\BuildingBlocks.Application\BuildingBlocks.Application\obj\Debug\net7.0\BuildingBlocks.Application.csproj.CoreCompileInputs.cache
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Core\BuildingBlocks.Application\BuildingBlocks.Application\obj\Debug\net7.0\BuildingBlocks.Application.dll
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Core\BuildingBlocks.Application\BuildingBlocks.Application\obj\Debug\net7.0\refint\BuildingBlocks.Application.dll
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Core\BuildingBlocks.Application\BuildingBlocks.Application\obj\Debug\net7.0\BuildingBlocks.Application.pdb
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Core\BuildingBlocks.Application\BuildingBlocks.Application\obj\Debug\net7.0\ref\BuildingBlocks.Application.dll

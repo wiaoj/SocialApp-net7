@@ -13,10 +13,15 @@ public abstract class ValueObject : IEquatable<ValueObject> {
 
     public static Boolean operator ==(ValueObject left, ValueObject right) => Equals(left, right);
     public static Boolean operator !=(ValueObject left, ValueObject right) => Equals(left, right) is false;
-    public sealed override Int32 GetHashCode() => GetEqualityComponents().Select(x => x?.GetHashCode() ?? 0).Aggregate((x, y) => x ^ y);
-    public Boolean Equals(ValueObject? other) => Equals((Object?)other);
+    public sealed override Int32 GetHashCode() {
+        return GetEqualityComponents().Select(x => x?.GetHashCode() ?? 0).Aggregate((x, y) => x ^ y);
+    }
 
-    public sealed override String ToString() {
+    public Boolean Equals(ValueObject? other) {
+        return Equals((Object?)other);
+    }
+
+    public sealed override String? ToString() {
         return base.ToString();
     }
 }

@@ -1,27 +1,65 @@
 ﻿using BuildingBlocks.Domain.Models;
-using SocialApp.Domain.Profile.ValueObjects;
+using SocialApp.Domain.User.ValueObjects;
 
 namespace SocialApp.Domain.Profile;
-public sealed class Profile : AggregateRoot<ProfileId> {
-    public Follower Follower { get; private set; }
-    public Follow Follow { get; private set; }
-
-    private Profile(ProfileId id,
-                    Follower follower,
-                    Follow follow) : base(id) {
-        Follower = follower;
-        Follow = follow;
-    }
-
-    public static Profile Create() {
-        return new(ProfileId.Create(), Follower.Create(), Follow.Create());
-    }
-
-    //public static Profile Create(Int64 follower, Int64 follow) {
-    //    return new(ProfileId.Create(), Follower.Create(follower), Follow.Create(follow));
+public sealed class Profile : AggregateRoot<Guid> {
+    public UserId UserId { get; private set; }
+    public User.User User { get; private set; }
+    public Int64 Follower { get; private set; }
+    public Int64 Follow { get; private set; }
+    private IList<Profile> _followers = new List<Profile>();
+    public IReadOnlyCollection<Profile> Followers => _followers.AsReadOnly();
+    private IList<Profile> _follows = new List<Profile>();
+    public IReadOnlyCollection<Profile> Follows => _follows.AsReadOnly();
+    //public Profile(UserId userId) : base(ProfileId.Create()) {
+    //    UserId = userId;
     //}
 
-    public static Profile Create(Follower follower, Follow follow) {
-        return new(ProfileId.Create(), follower, follow);
+    public Profile(UserId userId) : base(Guid.NewGuid()) {
+        UserId = userId;
     }
+
+    public Profile AddFollower(Profile profile) {
+        if(_followers.Any(x => x.Equals(profile)))
+            return this;
+
+        _followers.Add(profile);
+        Follower++;
+
+        profile._follows.Add(this);
+        profile.Follow++;
+        //profile.AddFollow(this);
+        return this;
+    }
+
+    public Profile RemoveFollower(Profile profile) {
+        if(_followers.Any(x => x.Equals(profile)) is false)
+            return this;
+
+        _followers.Remove(profile);
+        Follower--;
+
+        profile._follows.Remove(this);
+        profile.Follow--;
+        //profile.RemoveFollow(this);
+        return this;
+    }
+
+    //private Profile AddFollow(Profile profile) {
+    //    if(_follows.Any(x => x.Equals(profile)))
+    //        return this;
+
+    //    _follows.Add(profile);
+    //    Follow++;
+    //    return this;
+    //}
+
+    //private Profile RemoveFollow(Profile profile) {
+    //    if(_follows.Any(x => x.Equals(profile)) is false)
+    //        return this;
+
+    //    _follows.Remove(profile);
+    //    Follow--;
+    //    return this;
+    //}
 }

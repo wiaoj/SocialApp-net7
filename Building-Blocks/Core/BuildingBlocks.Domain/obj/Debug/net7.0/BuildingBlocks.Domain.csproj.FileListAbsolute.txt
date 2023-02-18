@@ -1,0 +1,12 @@
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Core\BuildingBlocks.Domain\bin\Debug\net7.0\BuildingBlocks.Domain.deps.json
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Core\BuildingBlocks.Domain\bin\Debug\net7.0\BuildingBlocks.Domain.dll
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Core\BuildingBlocks.Domain\bin\Debug\net7.0\BuildingBlocks.Domain.pdb
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Core\BuildingBlocks.Domain\obj\Debug\net7.0\BuildingBlocks.Domain.csproj.AssemblyReference.cache
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Core\BuildingBlocks.Domain\obj\Debug\net7.0\BuildingBlocks.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Core\BuildingBlocks.Domain\obj\Debug\net7.0\BuildingBlocks.Domain.AssemblyInfoInputs.cache
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Core\BuildingBlocks.Domain\obj\Debug\net7.0\BuildingBlocks.Domain.AssemblyInfo.cs
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Core\BuildingBlocks.Domain\obj\Debug\net7.0\BuildingBlocks.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Core\BuildingBlocks.Domain\obj\Debug\net7.0\BuildingBlocks.Domain.dll
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Core\BuildingBlocks.Domain\obj\Debug\net7.0\refint\BuildingBlocks.Domain.dll
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Core\BuildingBlocks.Domain\obj\Debug\net7.0\BuildingBlocks.Domain.pdb
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Core\BuildingBlocks.Domain\obj\Debug\net7.0\ref\BuildingBlocks.Domain.dll

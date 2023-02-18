@@ -21,11 +21,11 @@ public sealed class Follow : ValueObject {
         yield return Value;
     }
 
-    public Follow Increase() {
+    internal Follow Increase() {
         Value++;
         return this;
     }
-    public Follow Decrease() {
+    internal Follow Decrease() {
         Value--;
         return this;
     }

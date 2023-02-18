@@ -1,0 +1,17 @@
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Infrastructure\BuildingBlocks.Persistence\obj\Debug\net7.0\BuildingBlocks.Persistence.csproj.AssemblyReference.cache
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Infrastructure\BuildingBlocks.Persistence\obj\Debug\net7.0\BuildingBlocks.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Infrastructure\BuildingBlocks.Persistence\obj\Debug\net7.0\BuildingBlocks.Persistence.AssemblyInfoInputs.cache
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Infrastructure\BuildingBlocks.Persistence\obj\Debug\net7.0\BuildingBlocks.Persistence.AssemblyInfo.cs
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Infrastructure\BuildingBlocks.Persistence\obj\Debug\net7.0\BuildingBlocks.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Infrastructure\BuildingBlocks.Persistence\bin\Debug\net7.0\BuildingBlocks.Persistence.deps.json
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Infrastructure\BuildingBlocks.Persistence\bin\Debug\net7.0\BuildingBlocks.Persistence.runtimeconfig.json
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Infrastructure\BuildingBlocks.Persistence\bin\Debug\net7.0\BuildingBlocks.Persistence.dll
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Infrastructure\BuildingBlocks.Persistence\bin\Debug\net7.0\BuildingBlocks.Persistence.pdb
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Infrastructure\BuildingBlocks.Persistence\bin\Debug\net7.0\BuildingBlocks.Abstractions.dll
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Infrastructure\BuildingBlocks.Persistence\bin\Debug\net7.0\BuildingBlocks.Abstractions.pdb
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Infrastructure\BuildingBlocks.Persistence\obj\Debug\net7.0\BuildingBlocks.Persistence.csproj.CopyComplete
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Infrastructure\BuildingBlocks.Persistence\obj\Debug\net7.0\BuildingBlocks.Persistence.dll
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Infrastructure\BuildingBlocks.Persistence\obj\Debug\net7.0\refint\BuildingBlocks.Persistence.dll
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Infrastructure\BuildingBlocks.Persistence\obj\Debug\net7.0\BuildingBlocks.Persistence.pdb
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Infrastructure\BuildingBlocks.Persistence\obj\Debug\net7.0\BuildingBlocks.Persistence.genruntimeconfig.cache
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Infrastructure\BuildingBlocks.Persistence\obj\Debug\net7.0\ref\BuildingBlocks.Persistence.dll

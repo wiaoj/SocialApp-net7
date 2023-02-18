@@ -1,4 +1,5 @@
-﻿using BuildingBlocks.Core.Abstractions.Domain.Models;
+﻿using BuildingBlocks.Domain.Models;
+using SocialApp.Domain.Exceptions.UserExceptions;
 
 namespace SocialApp.Domain.User.ValueObjects;
 
@@ -16,6 +17,8 @@ public sealed class Email : ValueObject {
         yield return Value;
     }
 
-    //public static implicit operator Email(String email) => new(email);
-    //public static implicit operator String(Email email) => email.Value;
+
+    public Email Update(String email) {
+        return Value.Equals(email) ? throw new UserEmailSameDomainException() : (new(email));
+    }
 }

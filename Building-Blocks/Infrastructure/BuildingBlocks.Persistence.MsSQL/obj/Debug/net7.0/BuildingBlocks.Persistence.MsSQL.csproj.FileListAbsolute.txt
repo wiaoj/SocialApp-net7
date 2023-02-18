@@ -1,0 +1,17 @@
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Infrastructure\BuildingBlocks.Persistence.MsSQL\obj\Debug\net7.0\BuildingBlocks.Persistence.MsSQL.csproj.AssemblyReference.cache
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Infrastructure\BuildingBlocks.Persistence.MsSQL\obj\Debug\net7.0\BuildingBlocks.Persistence.MsSQL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Infrastructure\BuildingBlocks.Persistence.MsSQL\obj\Debug\net7.0\BuildingBlocks.Persistence.MsSQL.AssemblyInfoInputs.cache
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Infrastructure\BuildingBlocks.Persistence.MsSQL\obj\Debug\net7.0\BuildingBlocks.Persistence.MsSQL.AssemblyInfo.cs
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Infrastructure\BuildingBlocks.Persistence.MsSQL\obj\Debug\net7.0\BuildingBlocks.Persistence.MsSQL.csproj.CoreCompileInputs.cache
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Infrastructure\BuildingBlocks.Persistence.MsSQL\bin\Debug\net7.0\BuildingBlocks.Persistence.MsSQL.deps.json
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Infrastructure\BuildingBlocks.Persistence.MsSQL\bin\Debug\net7.0\BuildingBlocks.Persistence.MsSQL.dll
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Infrastructure\BuildingBlocks.Persistence.MsSQL\bin\Debug\net7.0\BuildingBlocks.Persistence.MsSQL.pdb
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Infrastructure\BuildingBlocks.Persistence.MsSQL\bin\Debug\net7.0\BuildingBlocks.Abstractions.dll
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Infrastructure\BuildingBlocks.Persistence.MsSQL\bin\Debug\net7.0\BuildingBlocks.Persistence.dll
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Infrastructure\BuildingBlocks.Persistence.MsSQL\bin\Debug\net7.0\BuildingBlocks.Persistence.pdb
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Infrastructure\BuildingBlocks.Persistence.MsSQL\bin\Debug\net7.0\BuildingBlocks.Abstractions.pdb
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Infrastructure\BuildingBlocks.Persistence.MsSQL\obj\Debug\net7.0\BuildingBlocks.Persistence.MsSQL.csproj.CopyComplete
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Infrastructure\BuildingBlocks.Persistence.MsSQL\obj\Debug\net7.0\BuildingBlocks.Persistence.MsSQL.dll
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Infrastructure\BuildingBlocks.Persistence.MsSQL\obj\Debug\net7.0\refint\BuildingBlocks.Persistence.MsSQL.dll
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Infrastructure\BuildingBlocks.Persistence.MsSQL\obj\Debug\net7.0\BuildingBlocks.Persistence.MsSQL.pdb
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Infrastructure\BuildingBlocks.Persistence.MsSQL\obj\Debug\net7.0\ref\BuildingBlocks.Persistence.MsSQL.dll

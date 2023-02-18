@@ -20,11 +20,11 @@ public sealed class Follower : ValueObject {
         yield return Value;
     }
 
-    public Follower Increase() {
+    internal Follower Increase() {
         Value++;
         return this;
     }
-    public Follower Decrease() {
+    internal Follower Decrease() {
         Value--;
         return this;
     }

@@ -1,0 +1,12 @@
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\src\Infrastructure\SocialApp.Infrastructure\bin\Debug\net7.0\SocialApp.Infrastructure.deps.json
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\src\Infrastructure\SocialApp.Infrastructure\bin\Debug\net7.0\SocialApp.Infrastructure.dll
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\src\Infrastructure\SocialApp.Infrastructure\bin\Debug\net7.0\SocialApp.Infrastructure.pdb
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\src\Infrastructure\SocialApp.Infrastructure\obj\Debug\net7.0\SocialApp.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\src\Infrastructure\SocialApp.Infrastructure\obj\Debug\net7.0\SocialApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\src\Infrastructure\SocialApp.Infrastructure\obj\Debug\net7.0\SocialApp.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\src\Infrastructure\SocialApp.Infrastructure\obj\Debug\net7.0\SocialApp.Infrastructure.AssemblyInfo.cs
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\src\Infrastructure\SocialApp.Infrastructure\obj\Debug\net7.0\SocialApp.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\src\Infrastructure\SocialApp.Infrastructure\obj\Debug\net7.0\SocialApp.Infrastructure.dll
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\src\Infrastructure\SocialApp.Infrastructure\obj\Debug\net7.0\refint\SocialApp.Infrastructure.dll
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\src\Infrastructure\SocialApp.Infrastructure\obj\Debug\net7.0\SocialApp.Infrastructure.pdb
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\src\Infrastructure\SocialApp.Infrastructure\obj\Debug\net7.0\ref\SocialApp.Infrastructure.dll

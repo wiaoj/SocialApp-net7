@@ -1,0 +1,12 @@
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Core\BuildingBlocks.Abstractions\bin\Debug\net7.0\BuildingBlocks.Abstractions.deps.json
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Core\BuildingBlocks.Abstractions\bin\Debug\net7.0\BuildingBlocks.Abstractions.dll
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Core\BuildingBlocks.Abstractions\bin\Debug\net7.0\BuildingBlocks.Abstractions.pdb
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Core\BuildingBlocks.Abstractions\obj\Debug\net7.0\BuildingBlocks.Abstractions.csproj.AssemblyReference.cache
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Core\BuildingBlocks.Abstractions\obj\Debug\net7.0\BuildingBlocks.Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Core\BuildingBlocks.Abstractions\obj\Debug\net7.0\BuildingBlocks.Abstractions.AssemblyInfoInputs.cache
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Core\BuildingBlocks.Abstractions\obj\Debug\net7.0\BuildingBlocks.Abstractions.AssemblyInfo.cs
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Core\BuildingBlocks.Abstractions\obj\Debug\net7.0\BuildingBlocks.Abstractions.csproj.CoreCompileInputs.cache
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Core\BuildingBlocks.Abstractions\obj\Debug\net7.0\BuildingBlocks.Abstractions.dll
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Core\BuildingBlocks.Abstractions\obj\Debug\net7.0\refint\BuildingBlocks.Abstractions.dll
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Core\BuildingBlocks.Abstractions\obj\Debug\net7.0\BuildingBlocks.Abstractions.pdb
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\Building-Blocks\Core\BuildingBlocks.Abstractions\obj\Debug\net7.0\ref\BuildingBlocks.Abstractions.dll
