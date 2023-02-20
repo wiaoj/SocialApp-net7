@@ -1,6 +1,6 @@
 ﻿using BuildingBlocks.Persistence.EntityFrameworkCore.Repositories;
 using Microsoft.EntityFrameworkCore;
-using SocialApp.Application.Common.Persistence.Repositories.ReadRepositories;
+using SocialApp.Application.Common.Repositories.ReadRepositories;
 using SocialApp.Domain.User;
 using SocialApp.Domain.User.ValueObjects;
 using SocialApp.Persistence.Context;

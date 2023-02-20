@@ -10,6 +10,7 @@ namespace SocialApp.Application.Features.Users.Commands.RegisterCommand;
 public sealed record RegisterCommandRequest : IRequestCommand<RegisterCommandResponse> {
     public required String FirstName { get; set; }
     public required String LastName { get; set; }
+    //public required String Username { get; set; }
     public required String Email { get; set; }
     public required String Password { get; set; }
 

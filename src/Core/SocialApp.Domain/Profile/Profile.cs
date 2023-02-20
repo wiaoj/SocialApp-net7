@@ -1,4 +1,6 @@
 ﻿using BuildingBlocks.Domain.Models;
+using SocialApp.Domain.Posts;
+using SocialApp.Domain.Profile.ValueObjects;
 using SocialApp.Domain.User.ValueObjects;
 
 namespace SocialApp.Domain.Profile;
@@ -7,10 +9,13 @@ public sealed class Profile : AggregateRoot<Guid> {
     public User.User User { get; private set; }
     public Int64 Follower { get; private set; }
     public Int64 Follow { get; private set; }
-    private IList<Profile> _followers = new List<Profile>();
+    private readonly IList<Profile> _followers = new List<Profile>();
     public IReadOnlyCollection<Profile> Followers => _followers.AsReadOnly();
-    private IList<Profile> _follows = new List<Profile>();
+    private readonly IList<Profile> _follows = new List<Profile>();
     public IReadOnlyCollection<Profile> Follows => _follows.AsReadOnly();
+
+    private readonly IList<Post> _posts = new List<Post>();
+    public IReadOnlyCollection<Post> Posts => _posts.AsReadOnly();
     //public Profile(UserId userId) : base(ProfileId.Create()) {
     //    UserId = userId;
     //}
@@ -62,4 +67,8 @@ public sealed class Profile : AggregateRoot<Guid> {
     //    Follow--;
     //    return this;
     //}
+
+    public Profile AddPost(Post post) {
+        return this;
+    }
 }

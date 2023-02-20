@@ -3,8 +3,6 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using SocialApp.Domain.Profile;
 using SocialApp.Domain.User.ValueObjects;
 using SocialApp.Persistence.Context;
-using SocialApp.Domain.Profile.ValueObjects;
-using static SocialApp.Persistence.EntityConfigurations.ProfileTypeConfiguration;
 
 namespace SocialApp.Persistence.EntityConfigurations;
 public sealed class ProfileTypeConfiguration : IEntityTypeConfiguration<Profile> {

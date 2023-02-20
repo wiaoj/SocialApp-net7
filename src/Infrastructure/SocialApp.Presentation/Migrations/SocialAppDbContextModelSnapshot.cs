@@ -39,6 +39,44 @@ namespace SocialApp.Persistence.Migrations
                     b.ToTable("ProfileRelationships", "socialApp");
                 });
 
+            modelBuilder.Entity("SocialApp.Domain.Posts.Post", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .HasColumnType("uniqueidentifier")
+                        .HasColumnName("id");
+
+                    b.Property<string>("Content")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("content");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("created_date");
+
+                    b.Property<Guid>("ProfileId")
+                        .HasColumnType("uniqueidentifier")
+                        .HasColumnName("profile_id");
+
+                    b.Property<Guid?>("ProfileId1")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime?>("UpdatedDate")
+                        .HasColumnType("datetime2")
+                        .HasColumnName("updated_date");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("Id")
+                        .IsUnique();
+
+                    b.HasIndex("ProfileId");
+
+                    b.HasIndex("ProfileId1");
+
+                    b.ToTable("Posts", "socialApp");
+                });
+
             modelBuilder.Entity("SocialApp.Domain.Profile.Profile", b =>
                 {
                     b.Property<Guid>("Id")
@@ -133,6 +171,21 @@ namespace SocialApp.Persistence.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("SocialApp.Domain.Posts.Post", b =>
+                {
+                    b.HasOne("SocialApp.Domain.Profile.Profile", "Profile")
+                        .WithMany()
+                        .HasForeignKey("ProfileId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("SocialApp.Domain.Profile.Profile", null)
+                        .WithMany("Posts")
+                        .HasForeignKey("ProfileId1");
+
+                    b.Navigation("Profile");
+                });
+
             modelBuilder.Entity("SocialApp.Domain.Profile.Profile", b =>
                 {
                     b.HasOne("SocialApp.Domain.User.User", "User")
@@ -142,6 +195,11 @@ namespace SocialApp.Persistence.Migrations
                         .IsRequired();
 
                     b.Navigation("User");
+                });
+
+            modelBuilder.Entity("SocialApp.Domain.Profile.Profile", b =>
+                {
+                    b.Navigation("Posts");
                 });
 #pragma warning restore 612, 618
         }

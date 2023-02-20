@@ -2,8 +2,8 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using SocialApp.Application.Common.Authentication;
-using SocialApp.Application.Common.Persistence.Repositories.ReadRepositories;
-using SocialApp.Application.Common.Persistence.Repositories.WriteRepositories;
+using SocialApp.Application.Common.Repositories.ReadRepositories;
+using SocialApp.Application.Common.Repositories.WriteRepositories;
 using SocialApp.Application.Common.Services;
 using SocialApp.Persistence.Context;
 using SocialApp.Persistence.Services;
@@ -31,6 +31,9 @@ public static class PersistenceServiceRegistration {
 
         services.AddScoped<IProfileWriteRepository, ProfileWriteRepository>();
         services.AddScoped<IProfileReadRepository, ProfileReadRepository>();
+
+        services.AddScoped<IPostWriteRepository, PostWriteRepository>();
+        services.AddScoped<IPostReadRepository, PostReadRepository>();
         return services;
     }
 
@@ -40,6 +43,7 @@ public static class PersistenceServiceRegistration {
 
         services.AddScoped<IAuthenticationService, AuthenticationService>();
         services.AddScoped<IProfileService, ProfileService>();
+        services.AddScoped<IPostService, PostService>();
         return services;
     }
 }

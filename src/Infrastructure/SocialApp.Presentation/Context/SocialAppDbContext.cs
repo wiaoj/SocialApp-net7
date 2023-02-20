@@ -2,6 +2,7 @@
 using BuildingBlocks.Persistence.MsSQL;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
+using SocialApp.Domain.Posts;
 using SocialApp.Domain.Profile;
 using SocialApp.Domain.User;
 using System.Reflection;
@@ -13,7 +14,7 @@ public sealed class SocialAppDbContext : MsSQLDatabaseContext {
 
     public DbSet<User> Users { get; set; }
     public DbSet<Profile> Profiles { get; set; }
-    //public DbSet<Profile1> Profiles { get; set; }
+    public DbSet<Post> Posts { get; set; }
 
     public override async Task<Int32> SaveChangesAsync(CancellationToken cancellationToken = default) {
 

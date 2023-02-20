@@ -13,6 +13,20 @@ builder.Services.AddApplicationServices();
 builder.Services.AddPersistenceServices(builder.Configuration);
 
 builder.Services.AddControllers();
+
+builder.Services.AddCors(options =>
+    options.AddDefaultPolicy(policy =>
+    //her önüne gelen girebilir... policy.AllowAnyHeader().AllowAnyHeader().AllowAnyOrigin()
+    policy//.WithOrigins("http://localhost:4200", "https://localhost:4200")
+        .AllowAnyOrigin()
+        .AllowAnyHeader()
+        .AllowAnyMethod()
+    //.AllowCredentials() // SignalR için 
+        )
+    );
+
+
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -33,6 +47,7 @@ if(app.Environment.IsDevelopment()) {
     app.UseSwaggerUI();
 }
 
+app.UseCors();
 app.UseHttpsRedirection();
 
 app.UseAuthorization();

@@ -1,6 +1,6 @@
 ﻿using SocialApp.Application.Common.Authentication;
-using SocialApp.Application.Common.Persistence.Repositories.ReadRepositories;
-using SocialApp.Application.Common.Persistence.Repositories.WriteRepositories;
+using SocialApp.Application.Common.Repositories.ReadRepositories;
+using SocialApp.Application.Common.Repositories.WriteRepositories;
 using SocialApp.Application.Common.Services;
 using SocialApp.Application.Features.Users.Commands.RegisterCommand;
 using SocialApp.Application.Features.Users.Dtos;

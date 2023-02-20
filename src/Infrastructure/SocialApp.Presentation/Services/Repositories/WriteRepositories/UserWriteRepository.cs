@@ -1,5 +1,5 @@
 ﻿using BuildingBlocks.Persistence.EntityFrameworkCore.Repositories;
-using SocialApp.Application.Common.Persistence.Repositories.WriteRepositories;
+using SocialApp.Application.Common.Repositories.WriteRepositories;
 using SocialApp.Domain.User;
 using SocialApp.Domain.User.ValueObjects;
 using SocialApp.Persistence.Context;

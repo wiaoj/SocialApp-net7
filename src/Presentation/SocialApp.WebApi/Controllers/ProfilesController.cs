@@ -21,24 +21,27 @@ public class ProfilesController : ControllerBase {
     //    return Created("","");
     //}
 
+    [HttpPost]
     [Route("[action]/{request.ProfileId}/{request.FollowerId}")]
-    [HttpPut]
-    public async Task<IActionResult> FollowProfile([FromRoute] FollowProfileCommandRequest request, CancellationToken cancellationToken) {
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    public async Task<IActionResult> FollowProfile([FromBody] FollowProfileCommandRequest request, CancellationToken cancellationToken) {
         await _sender.Send(request, cancellationToken);
         return Ok();
     }
 
+    [HttpPost]
     [Route("[action]/{request.ProfileId}/{request.FollowerId}")]
-    [HttpPut]
-    public async Task<IActionResult> UnfollowProfile([FromRoute] UnfollowProfileCommandRequest request, CancellationToken cancellationToken) {
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    public async Task<IActionResult> UnfollowProfile([FromBody] UnfollowProfileCommandRequest request, CancellationToken cancellationToken) {
         await _sender.Send(request, cancellationToken);
         return Ok();
     }
 
-    [Route("[action]/{request.ProfileId}")]
     [HttpGet]
-    public async Task<IActionResult> GetFollowersByProfileId([FromRoute] GetFollowersByProfileIdRequest request, CancellationToken cancellationToken) {
-        GetFollowersByProfileIdResponse response = await _sender.Send(request, cancellationToken);
-        return Ok(response.Profile);
+    [Route("[action]/{request.ProfileId}")]
+    [ProducesResponseType(typeof(GetFollowersByProfileIdQueryResponse),StatusCodes.Status200OK)]
+    public async Task<IActionResult> GetFollowersByProfileId([FromRoute] GetFollowersByProfileIdQueryRequest request, CancellationToken cancellationToken) {
+        GetFollowersByProfileIdQueryResponse response = await _sender.Send(request, cancellationToken);
+        return Ok(response);
     }
 }

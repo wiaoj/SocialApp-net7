@@ -1,5 +1,5 @@
-﻿using SocialApp.Application.Common.Persistence.Repositories.ReadRepositories;
-using SocialApp.Application.Common.Persistence.Repositories.WriteRepositories;
+﻿using SocialApp.Application.Common.Repositories.ReadRepositories;
+using SocialApp.Application.Common.Repositories.WriteRepositories;
 using SocialApp.Application.Common.Services;
 using SocialApp.Application.Dtos.Profiles;
 using SocialApp.Application.Features.Profiles.Commands.FollowProfileCommand;
@@ -46,7 +46,7 @@ public sealed class ProfileService : IProfileService {
         await _profileWriteRepository.SaveChangesAsync(cancellationToken);
     }
 
-    public async Task<GetFollowersByProfileIdResponse> GetById(GetFollowersByProfileIdRequest getFollowersByProfileIdRequest, CancellationToken cancellationToken) {
+    public async Task<GetFollowersByProfileIdQueryResponse> GetById(GetFollowersByProfileIdQueryRequest getFollowersByProfileIdRequest, CancellationToken cancellationToken) {
         Profile profile = await _profileReadRepository.GetByIdWithFollowersAndFollows(getFollowersByProfileIdRequest.ProfileId, cancellationToken)
             ?? throw new Exception("Profile not found");
 
