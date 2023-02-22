@@ -46,8 +46,8 @@ public sealed class ProfileService : IProfileService {
         await _profileWriteRepository.SaveChangesAsync(cancellationToken);
     }
 
-    public async Task<GetFollowersByProfileIdQueryResponse> GetById(GetFollowersByProfileIdQueryRequest getFollowersByProfileIdRequest, CancellationToken cancellationToken) {
-        Profile profile = await _profileReadRepository.GetByIdWithFollowersAndFollows(getFollowersByProfileIdRequest.ProfileId, cancellationToken)
+    public async Task<GetByProfileIdQueryResponse> GetById(GetByProfileIdQueryRequest getByProfileIdRequest, CancellationToken cancellationToken) {
+        Profile profile = await _profileReadRepository.GetByIdWithFollowersAndFollows(getByProfileIdRequest.ProfileId, cancellationToken)
             ?? throw new Exception("Profile not found");
 
         ProfileDto profileDto = new(profile.Id,

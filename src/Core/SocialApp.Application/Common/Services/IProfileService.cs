@@ -11,5 +11,5 @@ public interface IProfileService {
 
     public Task FollowProfile(FollowProfileCommandRequest followProfileCommandRequest, CancellationToken cancellationToken);
     public Task UnfollowProfile(UnfollowProfileCommandRequest unfollowProfileCommandRequest, CancellationToken cancellationToken);
-    public Task<GetFollowersByProfileIdQueryResponse> GetById(GetFollowersByProfileIdQueryRequest getFollowersByProfileIdRequest, CancellationToken cancellationToken);
+    public Task<GetByProfileIdQueryResponse> GetById(GetByProfileIdQueryRequest getFollowersByProfileIdRequest, CancellationToken cancellationToken);
 }

@@ -39,9 +39,9 @@ public class ProfilesController : ControllerBase {
 
     [HttpGet]
     [Route("[action]/{request.ProfileId}")]
-    [ProducesResponseType(typeof(GetFollowersByProfileIdQueryResponse),StatusCodes.Status200OK)]
-    public async Task<IActionResult> GetFollowersByProfileId([FromRoute] GetFollowersByProfileIdQueryRequest request, CancellationToken cancellationToken) {
-        GetFollowersByProfileIdQueryResponse response = await _sender.Send(request, cancellationToken);
+    [ProducesResponseType(typeof(GetByProfileIdQueryResponse),StatusCodes.Status200OK)]
+    public async Task<IActionResult> GetByProfileId([FromRoute] GetByProfileIdQueryRequest request, CancellationToken cancellationToken) {
+        GetByProfileIdQueryResponse response = await _sender.Send(request, cancellationToken);
         return Ok(response);
     }
 }
