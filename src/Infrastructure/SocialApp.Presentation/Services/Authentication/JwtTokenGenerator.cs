@@ -21,6 +21,7 @@ public sealed class JwtTokenGenerator : IJwtTokenGenerator {
 
     public AccessToken GenerateToken(User user) {
         DateTime tokenExpiration = _dateTimeProvider.UtcNow.AddMinutes(_jwtSettings.ExpiryMinutes);
+
         SigningCredentials signingCredentials = new(
             new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_jwtSettings.Secret)),
             SecurityAlgorithms.HmacSha256);
@@ -37,6 +38,7 @@ public sealed class JwtTokenGenerator : IJwtTokenGenerator {
     private Claim[] GetClaims(User user) {
         return new Claim[] {
             new(JwtRegisteredClaimNames.Sub, user.Id.Value.ToString()),
+            new(ClaimTypes.NameIdentifier, user.Id.Value.ToString()),
             new(JwtRegisteredClaimNames.GivenName, user.FirstName.Value),
             new(JwtRegisteredClaimNames.FamilyName, user.LastName.Value),
             new(JwtRegisteredClaimNames.Name, $"{user.FirstName.Value} {user.LastName.Value}"),

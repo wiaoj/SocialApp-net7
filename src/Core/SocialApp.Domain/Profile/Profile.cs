@@ -1,6 +1,5 @@
 ﻿using BuildingBlocks.Domain.Models;
 using SocialApp.Domain.Posts;
-using SocialApp.Domain.Profile.ValueObjects;
 using SocialApp.Domain.User.ValueObjects;
 
 namespace SocialApp.Domain.Profile;

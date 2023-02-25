@@ -14,16 +14,12 @@ public class PostsController : ControllerBase {
     }
 
     [HttpPost]
-    [Route("[action]/{profileId}")]
+    [Route("[action]")]
     [ProducesResponseType(StatusCodes.Status201Created)]
-    public async Task<IActionResult> Create([FromRoute] Guid profileId,
-                                            [FromBody] String content,
+    public async Task<IActionResult> Create([FromBody] CreatePostCommandRequest request,
                                             CancellationToken cancellationToken) {
-        await _sender.Send(new CreatePostCommandRequest {
-            ProfileId = profileId,
-            Content = content
-        }, cancellationToken);
-        return Created("", new());
+        await _sender.Send(request, cancellationToken);
+        return StatusCode(StatusCodes.Status201Created);
     }
 
     [HttpGet]

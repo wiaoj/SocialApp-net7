@@ -5,7 +5,7 @@ using SocialApp.Application.Common.Services;
 namespace SocialApp.Application.Features.Profiles.Commands.FollowProfileCommand;
 public sealed record FollowProfileCommandRequest : IRequestCommand {
     public required Guid ProfileId { get; set; }
-    public required Guid FollowerId { get; set; }
+    //public required Guid FollowerId { get; set; }
 
     private sealed class Handler : RequestCommandHandler<FollowProfileCommandRequest> {
         private readonly IProfileService _profileService;

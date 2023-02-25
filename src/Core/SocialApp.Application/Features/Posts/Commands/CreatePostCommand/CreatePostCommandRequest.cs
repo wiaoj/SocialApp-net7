@@ -5,7 +5,7 @@ using SocialApp.Application.Common.Services;
 namespace SocialApp.Application.Features.Posts.Commands.CreatePostCommand;
 public sealed record CreatePostCommandRequest : IRequestCommand
 {
-    public required Guid ProfileId { get; set; }
+    //public required Guid ProfileId { get; set; }
     public required string Content { get; set; }
 
     private sealed class Handler : RequestCommandHandler<CreatePostCommandRequest>

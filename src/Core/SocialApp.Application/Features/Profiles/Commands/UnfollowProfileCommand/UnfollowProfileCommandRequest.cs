@@ -5,7 +5,7 @@ using SocialApp.Application.Common.Services;
 namespace SocialApp.Application.Features.Profiles.Commands.UnfollowProfileCommand;
 public sealed record UnfollowProfileCommandRequest : IRequestCommand {
     public required Guid ProfileId { get; set; }
-    public required Guid FollowerId { get; set; }
+    //public required Guid FollowerId { get; set; }
 
     private sealed class Handler : RequestCommandHandler<UnfollowProfileCommandRequest> {
         private readonly IProfileService _profileService;

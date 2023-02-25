@@ -104,3 +104,4 @@ C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\src\Presentation\SocialA
 C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\src\Presentation\SocialApp.WebApi\bin\Debug\net7.0\Serilog.Sinks.Console.dll
 C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\src\Presentation\SocialApp.WebApi\bin\Debug\net7.0\Serilog.Sinks.Debug.dll
 C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\src\Presentation\SocialApp.WebApi\bin\Debug\net7.0\Serilog.Sinks.File.dll
+C:\Users\Bertan\source\repos\SocialApp\SocialAppBackend\src\Presentation\SocialApp.WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

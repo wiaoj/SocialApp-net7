@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Uhuqq9US4SyI3qFY0M4qinyBZgtxzmBmnjsNPvgbZ2xcBWh4qYvZG0Sn1O1Z7MNcopQMnIe5DeApfI/jMyoh1g==",
+  "dgSpecHash": "hpaMCi1i0ZlZ1Z9MSNOPGayZzE70uxYT0lINTu5EyONp64ErQRBE9RpS4zdQZWQcwrsIuxk7x8TNkOyc+rwX+w==",
   "success": true,
   "projectFilePath": "C:\\Users\\Bertan\\source\\repos\\SocialApp\\SocialAppBackend\\src\\Infrastructure\\SocialApp.Presentation\\SocialApp.Persistence.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,9 @@
     "C:\\Users\\Bertan\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
     "C:\\Users\\Bertan\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\Bertan\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.0.0\\mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\Bertan\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.3\\microsoft.aspnetcore.authentication.jwtbearer.7.0.3.nupkg.sha512",
+    "C:\\Users\\Bertan\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\Bertan\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\Bertan\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Bertan\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Bertan\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.1\\microsoft.data.sqlclient.5.0.1.nupkg.sha512",
