@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using SocialApp.Application.Common.Repositories.ReadRepositories;
 using SocialApp.Domain.Profile;
 using SocialApp.Domain.Profile.ValueObjects;
+using SocialApp.Domain.User;
 using SocialApp.Domain.User.ValueObjects;
 using SocialApp.Persistence.Context;
 
@@ -14,6 +15,27 @@ public sealed class ProfileReadRepository : ReadRepository<Profile, Guid, Social
         Profile? profile = await Table
                .Include(p => p.Followers)
                .FirstOrDefaultAsync(x => x.Id.Equals(id), cancellationToken);
+        return profile;
+    }
+
+    public async Task<Profile?> GetByIdWithFollows(Guid id, CancellationToken cancellationToken) {
+        Profile? profile = await Table
+               .Include(p => p.Follows)
+               .FirstOrDefaultAsync(x => x.Id.Equals(id), cancellationToken);
+        return profile;
+    }
+
+    public async Task<Profile?> GetByUserIdWithFollowers(Guid userId, CancellationToken cancellationToken) {
+        Profile? profile = await Table
+               .Include(p => p.Followers)
+               .FirstOrDefaultAsync(x => x.UserId.Equals(UserId.Create(userId)), cancellationToken);
+        return profile;
+    }
+
+    public async Task<Profile?> GetByUserIdWithFollows(Guid userId, CancellationToken cancellationToken) {
+        Profile? profile = await Table
+        .Include(p => p.Follows)
+               .FirstOrDefaultAsync(x => x.UserId.Equals(UserId.Create(userId)), cancellationToken);
         return profile;
     }
 
